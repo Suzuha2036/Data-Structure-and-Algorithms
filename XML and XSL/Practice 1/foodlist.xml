@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+    <menu type="food">
+        <item id="food-01">
+            <name>Chicken Rice</name>
+            <price currency="PHP">129.99</price>
+        </item>
+
+        <item id="food-02">
+            <name>Burger</name>
+            <price currency="PHP">89.99</price>
+        </item>
+    </menu>
+
+    <menu type="drink">
+        <item id="drink-01">
+            <name>Coke</name>
+            <priceList>
+                <price size="small" currency="PHP">25.00</price>
+                <price size="medium" currency="PHP">35.00</price>
+                <price size="large" currency="PHP">45.00</price>
+            </priceList>
+        </item>
+    </menu>
+
+    <menu type="dessert">
+        <item id="dessert-01">
+            <name>Chocolate Cake</name>
+            <price currency="PHP">99.99</price>
+        </item>
+
+        <item id="dessert-02">
+            <name>Ice Cream</name>
+            <price currency="PHP">59.99</price>
+        </item>
+    </menu>
+
+</menus>
