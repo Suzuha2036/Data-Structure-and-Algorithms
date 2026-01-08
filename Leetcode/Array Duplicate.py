@@ -2,12 +2,12 @@ from typing import List
 
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
-        arrSize = len(nums)
 
-        for i in range(arrSize):
-            for j in range(i + 1, arrSize):
-                if nums[i] == nums[j]: 
-                    return True
+# ---- Answer ----
+        nums.sort()
+        for i in range (1, len(nums)):
+            if nums[i] == nums[i - 1]:
+                return True
         return False
 
 # ---- Test cases ----
